@@ -28,28 +28,26 @@ GIS Local Web Viewer converts GIS data files (GeoJSON, Shapefile, File Geodataba
 
 ## Project Structure
 
-GIS_wep_app/
-├── backend/          # FastAPI backend (adapters, routes, models)
-├── frontend/         # User interface (Leaflet + JS)
-├── services/         # Helper services
-├── data_layers/       # GIS layers auto-loaded (each subfolder = one layer)
-├── raster_data/       # Raster basemap layers (tiles)
-├── uploads/           # Files uploaded manually via the UI
-└── requirements.txt
+    GIS_wep_app/
+    ├── backend/          # FastAPI backend (adapters, routes, models)
+    ├── frontend/         # User interface (Leaflet + JS)
+    ├── services/         # Helper services
+    ├── data_layers/      # GIS layers auto-loaded (each subfolder = one layer)
+    ├── raster_data/      # Raster basemap layers (tiles)
+    ├── uploads/          # Files uploaded manually via the UI
+    └── requirements.txt
 
 ## Running Locally
 
-```bash
-# Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate      # Windows
+    # Create and activate a virtual environment
+    python -m venv venv
+    venv\Scripts\activate      # Windows
 
-# Install dependencies
-pip install -r requirements.txt
+    # Install dependencies
+    pip install -r requirements.txt
 
-# Run the server
-uvicorn backend.main:app --reload
-```
+    # Run the server
+    uvicorn backend.main:app --reload
 
 Then open your browser at: `http://127.0.0.1:8000`
 
