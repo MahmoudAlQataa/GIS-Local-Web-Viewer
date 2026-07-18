@@ -29,12 +29,12 @@ GIS Local Web Viewer converts GIS data files (GeoJSON, Shapefile, File Geodataba
 ## Project Structure
 
     GIS_wep_app/
-    ├── backend/          # FastAPI backend (adapters, routes, models)
-    ├── frontend/         # User interface (Leaflet + JS)
-    ├── services/         # Helper services
-    ├── data_layers/      # GIS layers auto-loaded (each subfolder = one layer)
-    ├── raster_data/      # Raster basemap layers (tiles)
-    ├── uploads/          # Files uploaded manually via the UI
+    ├── backend/           # FastAPI backend (adapters, routes, models)
+    ├── frontend/          # User interface (Leaflet + JS)
+    ├── services/          # Helper services
+    ├── data_layers/       # GIS layers auto-loaded (each subfolder = one layer)
+    ├── raster_data/       # Raster basemap layers (tiles)
+    ├── uploads/           # Files uploaded manually via the UI
     └── requirements.txt
 
 ## Running Locally
