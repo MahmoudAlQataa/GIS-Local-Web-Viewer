@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads & data (اسمح فقط بـ .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+data_layers/*
+!data_layers/.gitkeep
+
+raster_data/*
+!raster_data/.gitkeep
