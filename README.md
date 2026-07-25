@@ -41,12 +41,12 @@ GIS Local Web Viewer converts GIS data files — GeoJSON, Shapefile, and File Ge
 ## Project Structure
 ```
 GIS-Local-Web-Viewer/
-├── backend/ # FastAPI app: adapters, routes, models
-├── frontend/ # Leaflet map UI (HTML/CSS/JS)
-├── services/ # Helper services
-├── data_layers/ # GIS layers, auto-loaded (each subfolder = one layer)
-├── raster_data/ # Offline basemap tiles, auto-loaded (each subfolder = one basemap)
-├── uploads/ # Files uploaded manually via the UI
+├── backend/              # FastAPI app: adapters, routes, models
+├── frontend/             # Leaflet map UI (HTML/CSS/JS)
+├── services/             # Helper services
+├── data_layers/          # GIS layers, auto-loaded (each subfolder = one layer)
+├── raster_data/          # Offline basemap tiles, auto-loaded (each subfolder = one basemap)
+├── uploads/              # Files uploaded manually via the UI
 └── requirements.txt
 ```
 
